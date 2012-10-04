@@ -1,0 +1,16 @@
+<package>
+  <description brief="OpenRTM Python">
+    ROS package of the 3rd party package OpenRTM-aist Python.
+  </description>
+  <author>Thomas Moulard/thomas.moulard@gmail.com</author>
+  <license>BSD</license>
+  <review status="experimental" notes=""/>
+  <url>http://www.openrtm.org/</url>
+
+  <export>
+    <rosdoc config="rosdoc.yaml" />
+  </export>
+
+  <rosdep name="python" />
+  <rosdep name="doxygen" />
+</package>
